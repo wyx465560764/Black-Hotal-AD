@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{446EBEDD-9ADF-4BFF-A628-799EE4666D56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotalAD</RootNamespace>
+    <AssemblyName>HotalAD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change.Designer.cs">
+      <DependentUpon>Change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checkchoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkchoice.Designer.cs">
+      <DependentUpon>Checkchoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checknet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checknet.Designer.cs">
+      <DependentUpon>Checknet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checknow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checknow.Designer.cs">
+      <DependentUpon>Checknow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C:\Users\V3-572G\Desktop\数据库\Checkout.cs">
+      <SubType>Form</SubType>
+      <Link>Checkout.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\V3-572G\Desktop\数据库\Checkout.Designer.cs">
+      <DependentUpon>Checkout.cs</DependentUpon>
+      <Link>Checkout.Designer.cs</Link>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Request.Designer.cs">
+      <DependentUpon>Request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room.Designer.cs">
+      <DependentUpon>room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roomadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roomadd.Designer.cs">
+      <DependentUpon>Roomadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roomchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roomchange.Designer.cs">
+      <DependentUpon>Roomchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roomdelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roomdelete.Designer.cs">
+      <DependentUpon>Roomdelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Change.resx">
+      <DependentUpon>Change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checkchoice.resx">
+      <DependentUpon>Checkchoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checknet.resx">
+      <DependentUpon>Checknet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checknow.resx">
+      <DependentUpon>Checknow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C:\Users\V3-572G\Desktop\数据库\Checkout.resx">
+      <DependentUpon>Checkout.cs</DependentUpon>
+      <Link>Checkout.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Request.resx">
+      <DependentUpon>Request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room.resx">
+      <DependentUpon>room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roomadd.resx">
+      <DependentUpon>Roomadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roomchange.resx">
+      <DependentUpon>Roomchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roomdelete.resx">
+      <DependentUpon>Roomdelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HotalDataSet.xsc">
+      <DependentUpon>HotalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HotalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HotalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HotalDataSet.xss">
+      <DependentUpon>HotalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\单间1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\单间2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\单间3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\单间4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
