@@ -1,0 +1,335 @@
+body,html
+{
+	height: 100%;
+	width: 100%;
+	padding:0;
+  	margin:0;
+}
+.public-header0
+{
+	height: 118px;
+	background-color:#FDF5E6;
+}
+.public-header0
+{
+
+}
+.name-pic
+{
+	position: absolute;
+	margin-top: 10px;
+	float: left;
+	height: 100px;
+	width: 90px;
+	background: url("../image/hotel1.png");
+}
+.name
+{
+	position: absolute;
+	float: left;
+	margin-left: 420px;
+	margin-top:30px;
+	font-family: "微软雅黑";
+	color: black;
+	font-size: 30px;
+}
+	
+.div-item:hover{background-color:#666633;}
+.div-item
+{
+	float: left;
+	width: 160px;
+    font-size: 14px;
+	height: 49px;
+    text-align: center;
+}
+.item
+{
+	float: left;
+	list-style: none;
+	padding: 0 50px;
+	margin-top: 14px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+	
+.public-container
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.public-header
+{
+	height: 49px;
+	background:#999966;
+}
+
+index-banner-bg
+{
+	height: 400px;
+	overflow: hidden;
+	background: #FDF5E6;
+	/*background: url("../image/banner1.png");*/
+}
+
+.index-banner-text
+{
+	position: absolute;z-index:5555;
+	margin-top: 70px;
+	margin-left: 600px;
+	float: left;
+	height:260px;
+	width: 400px;
+	background-color:white;
+	opacity:0.5;
+}
+.banner-span
+{
+	position: absolute;
+	margin-left: 90px;
+	margin-top:40px;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	font-size: 30px;
+	color: black;
+}
+.banner-button
+{
+	position: absolute;z-index:6555;
+	height: 30px;
+	width: 100px;
+	background-color: #DAA520;
+	border: 0px;
+	margin-left: 740px;
+	margin-top: 270px;
+	text-align: center;
+}
+.order-text
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: black;
+}
+.index-introduct
+{
+	height:390px;
+	background-color:#FFCC33;
+	
+}
+
+.hotel-pic
+{
+	height: 390px;
+	width:390px;
+	background:url("../image/hotel.jpg");
+}
+
+.introduct-a
+{
+	position: absolute;
+	margin-top:39px;
+	margin-left: 664px;
+	font-size: 36px;
+	color: white;
+}
+.introduct-b
+{
+	position: absolute;
+	margin-top:85px;
+	margin-left: 685px;
+	font-size: 14px;
+	color: white;
+}
+.intrudcut-3
+{
+}
+.introduct-c
+{
+	margin-left: 430px;
+	position: absolute;
+	margin-top:140px;
+	font-size: 19px;
+	color: white;
+	font-family: "Microsoft YaHei";
+}
+
+.index-panel1
+{
+	height: 400px;
+	background-color:#999966;
+}
+.panel1-1
+{
+	position:absolute;
+	float:left;
+	margin-top:100px;
+	height:224px;
+	width:300px;
+	background:url(../image/2.jpg);
+}
+.panel1-2
+{
+	position:absolute;
+	float:left;
+	margin-top:100px;
+	margin-left: 400px;
+	height:225px;
+	width:300px;
+	background:url(../image/3.jpg);
+}
+.panel1-3
+{
+	position:absolute;
+	float:left;
+	margin-top:100px;
+	margin-left: 800px;
+	height:225px;
+	width:300px;
+	background:url(../image/4.jpg);
+}
+
+
+.public-footer
+{
+	height: 110px;
+	background:#666666;
+}
+
+.item0:hover{color:white;}
+.item0
+{
+	float: left;
+	list-style: none;
+	padding: 0 50px;
+	margin-top: 14px;
+	color: black;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.div-item
+{
+	float: left;
+	width: 160px;
+    font-size: 14px;
+	height: 49px;
+    text-align: center;
+    text-align: center;
+}
+.last1
+{
+	position: absolute;
+	margin-top: 35px;
+	margin-left:500px;
+}
+.last2
+{
+	position: absolute;
+	margin-left:420px;
+	margin-top: 69px;
+}
+p
+{
+	color: black;
+	font-size:14px;
+}
+
+
+.public-container0
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1100px;
+	background-color: white;
+}
+.public-container1
+{
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+}
+.order-bg
+{
+	background-color: #DCDCDC;
+}
+.form1
+{
+	height: 800px;
+	background-color: white;
+}
+.choo
+{
+
+}
+.username
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top:210px;
+}
+.telnumber
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top:250px;
+}
+.intime
+{
+    position: absolute;
+	margin-left: 50px;
+	margin-top:350px;
+}
+
+.refer
+{
+	position: absolute;
+	margin-left: 100px;
+	margin-top:400px;
+}
+
+.order-text1
+{
+	position: absolute;
+	margin-top: 20px;
+}
+.order-text2
+{
+	position: absolute;
+	margin-top: 150px;
+}
+.order-text3
+{
+	position: absolute;
+	margin-top: 300px;
+}
+.text-number
+{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #00BFFF;
+}
+.text-type
+{
+	font-weight: bold;
+}
+
+
+.house-number
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top:110px;
+}
+.house-serve
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top:160px;
+}
